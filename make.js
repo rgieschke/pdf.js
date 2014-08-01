@@ -88,6 +88,7 @@ target.all = function() {
 // Files that need to be included in every build.
 var COMMON_WEB_FILES =
       ['web/images',
+       'web/update.js',
        'web/debugger.js'],
     COMMON_WEB_FILES_PREPROCESS =
       ['web/viewer.js',
